@@ -7,7 +7,7 @@ __all__ = ['User']
 
 class User(BaseMixin, db.Model):
 
-    __tablename__ = 'star_wars_user'
+    __tablename__ = 'api_storage_content_user'
 
     name = db.Column(db.Unicode(255), nullable=False)
     email = db.Column(EmailType, nullable=False)

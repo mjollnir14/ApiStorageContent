@@ -25,4 +25,3 @@ class BaseMixin(object):
 
 
 from .user import *
-from .character import *

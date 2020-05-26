@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(
-    name='star-wars',
+    name='api-storage-content',
     packages=[],
     version='0.1.0',
     license='MIT',

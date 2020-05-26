@@ -2,7 +2,7 @@ from kim import field, role
 
 from .base import BaseMapper
 
-from star_wars.models import User
+from api_storage_content.models import User
 
 
 class UserMapper(BaseMapper):

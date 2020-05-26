@@ -15,7 +15,7 @@ RUN mkdir -p /opt/logs && \
   apt-get autoremove -y && \
   rm -rf /var/lib/{apt,dpkg,cache,log}/
 EXPOSE 8080
-ENV FLASK_APP star_wars/wsgi.py
+ENV FLASK_APP api_storage_content/wsgi.py
 ENV FLASK_CONFIG Dev
 ENV FLASK_DEBUG 1
 ADD . /opt/code/

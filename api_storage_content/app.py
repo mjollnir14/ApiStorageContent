@@ -1,13 +1,13 @@
 from flask import Flask
 from flask_alembic import Alembic
 
-from star_wars.models import db
-from star_wars.apis import api_v1
+from api_storage_content.models import db
+from api_storage_content.apis import api_v1
 
 
 def create_app():
     app = Flask(__name__)
-    app.config.from_object('star_wars.config.settings')
+    app.config.from_object('api_storage_content.config.settings')
 
     db.init_app(app)
     api_v1.init_app(app)

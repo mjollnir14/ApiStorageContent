@@ -11,7 +11,7 @@ class Config(object):
 class Dev(Config):
 
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = 'sqlite:////opt/code/star_wars.db'
+    SQLALCHEMY_DATABASE_URI = 'sqlite:////opt/code/api_storage_content.db'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     BASIC_AUTH_USERNAME = 'admin'
     BASIC_AUTH_PASSWORD = 'secret'

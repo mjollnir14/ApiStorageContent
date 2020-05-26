@@ -3,9 +3,9 @@ version: '2'
 services:
   api:
     build: .
-    container_name: star_wars
-    image: star_wars
+    container_name: api_storage_content
+    image: api_storage_content
     volumes:
-      - ../star-wars:/opt/code
+      - ../api-storage-content:/opt/code
     ports:
       - "8080:8080"

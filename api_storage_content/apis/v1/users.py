@@ -2,7 +2,7 @@ from arrested import Resource
 from arrested.contrib.kim_arrested import KimEndpoint
 from arrested.contrib.sql_alchemy import DBListMixin, DBCreateMixin, DBObjectMixin
 
-from star_wars.models import db, User
+from api_storage_content.models import db, User
 from .mappers import UserMapper
 
 users_resource = Resource('users', __name__, url_prefix='/users')
